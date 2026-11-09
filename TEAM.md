@@ -61,7 +61,24 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 *(Điền sau khi hoàn thành buổi lab)*
 
-### NguyenTruongThanh-MSSV
+### BuiManhLinh-2A202603539
+
+**Phần việc phụ trách:**
+- CP1: Scan 5 vấn đề từ trải nghiệm thật
+- CP2: Viết 3 Problem Card, chọn card pitch chính
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+- Kiểm chứng lại các thông tin thu thập được
+- Viết problem card
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+- Phần 5. Problem Statement v0 (CP5) trong group_report.md
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+### HoVaTen-MSSV
 
 **Phần việc phụ trách:**
 - CP3: Chủ trì buổi pitch — gọi lần lượt từng người trình bày card, giữ giờ, đặt câu hỏi phản biện
@@ -100,21 +117,3 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 -
 
 ---
-
-### BuiManhLinh-MSSV
-
-**Phần việc phụ trách:**
-- CP3: Điền bảng pitch + cluster vào group_report sau khi nhóm thảo luận xong
-- Tạo file báo cáo cá nhân (CP1 + CP2)
-
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
--
-
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
--
-
-**Điều mình học được từ phần nhóm:**
-
--
