@@ -155,16 +155,16 @@ Bắt đầu làm bài
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch Card #1 — sinh viên non-tech mất 3–4h chuẩn bị mỗi buổi học AI | Nhóm chọn Card #1 làm candidate problem chính |
+| Phản biện bài của bạn khác | Câu hỏi tôi đặt: "Vấn đề này có lặp lại mỗi buổi không, hay chỉ xảy ra 1–2 lần đầu kỳ?" | Giúp nhóm kiểm tra tiêu chí tần suất trước khi chọn |
+| Nhận phản biện | Câu hỏi tôi nhận được: bottleneck thật là setup công cụ hay lý thuyết? | Tôi đã sửa: thêm setup công cụ (Colab, VS Code) vào bottleneck sau khi có dữ liệu phỏng vấn |
+| Gom cluster / cây OST | Gom 3 card của mình vào cụm "thiếu hướng dẫn đúng trình độ" | Cụm này được nhóm chọn làm nhánh chính trong cây OST |
+| Chọn candidate problem | Đề xuất Card #1 vì actor rõ, số đo thật (3–4h), lặp lại mỗi buổi, tiềm năng thương mại cao | Nhóm đồng thuận chọn làm candidate problem |
+| Kiểm chứng / research | Phỏng vấn 3 người ngày 09/11, tổng hợp insight; research NotebookLM, Khanmigo, GitHub Copilot | Phát hiện bottleneck thật là setup công cụ, không chỉ lý thuyết — cập nhật lại PS v1 |
+| Quy trình nhóm | Vẽ quy trình 7 bước hiện tại, đánh dấu bottleneck bước 2–3 (60–90 phút); vẽ quy trình tương lai | Làm nền cho Problem Statement v0 |
+| Problem Statement | Điền toàn bộ PS v0 (6 trường) và PS v1 (8 trường) sau khi cập nhật từ phỏng vấn | PS v1 bổ sung điểm can thiệp AI và mức Workflow |
+| Mức can thiệp AI | So sánh 4 mức (No AI / Rule / Workflow / Agent), điền AI Canvas 6 hàng, trả lời PAIR | Nhóm chọn Workflow vì cần phối hợp nhiều bước có điều kiện |
+| Quyết định | Phân tích 4 rủi ro, đề xuất Not Yet vì 2 giả thuyết chính chưa kiểm chứng đủ | Quyết định Not Yet kèm pilot plan và ngưỡng dừng |
 
 ---
 
@@ -174,10 +174,10 @@ Bắt đầu làm bài
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý thêm vấn đề sau khi tự scan | Gợi ý đúng 2 vấn đề bổ sung | Gợi ý thêm vấn đề bản đồ campus và tìm bạn nhóm không phù hợp vì impact thấp hoặc phụ thuộc platform | Tự loại 2 ý đó dựa trên tiêu chí tần suất và khả năng giải |
 | CP2 Problem Card | Phản biện Problem Card #1 theo góc PM hoài nghi | Chỉ ra 3 điểm yếu cụ thể về metric và phương án thay thế | Hơi hời hợt ở tiêu chí "học vẹt vs hiểu thật" — chỉ nêu nguy cơ mà không gợi cách đo | Tự thêm câu hỏi kiểm chứng vào phần pitch |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Tóm tắt tính năng và giới hạn của NotebookLM, Khanmigo, GitHub Copilot | Hữu ích khi liệt kê nhanh 3 công cụ | AI nói Khanmigo có thể dùng tiếng Việt — sai; tôi kiểm tra lại thấy chỉ hỗ trợ tiếng Anh | Ghi rõ "chỉ tiếng Anh" vào bảng research, không để AI tự điền |
+| CP5 Quy trình | Phác thảo quy trình nháp 7 bước | Hữu ích khi gợi ý cấu trúc bước | Không xác định được bước nào là bottleneck thật — đề xuất sai bước 1 là bottleneck | Tự quyết định bottleneck là bước 2–3 dựa trên dữ liệu phỏng vấn thật |
+| CP5–6 Problem Statement | Gợi ý khung PS v0 với 6 trường | Hữu ích ở cấu trúc ban đầu | Không tự cập nhật được insight từ phỏng vấn vào PS | Tự viết lại PS v1 sau khi có dữ liệu phỏng vấn — thêm setup công cụ vào bottleneck |
+| CP6 Mức can thiệp / quyết định | So sánh ưu nhược của 4 mức AI | Hữu ích khi liệt kê bảng so sánh | AI nghiêng về "Go" quá sớm, chưa kiểm chứng đủ giả thuyết | Tự ra quyết định Not Yet dựa trên 2 giả thuyết chưa kiểm chứng (willingness + sufficiency) |
 
 ---
 
@@ -187,31 +187,45 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-*(Điền sau khi nhóm làm CP3)*
+Khi nghe các bạn pitch, tôi nhận ra nhiều vấn đề mà các bạn nêu ra tôi cũng từng gặp nhưng chưa bao giờ đặt tên cho nó. Ví dụ vấn đề về việc không biết bắt đầu từ đâu khi vào buổi thực hành — tôi cứ nghĩ đó là do mình chưa quen, nhưng khi nghe bạn trình bày rõ thành Job Story thì mới thấy đây là pain có thể giải được. Điều tôi học được là việc đặt tên đúng cho vấn đề quan trọng hơn tôi nghĩ — cùng một trải nghiệm khó chịu nhưng nếu không diễn đạt được "ai, khi nào, mất bao nhiêu" thì không thể bắt đầu giải.
+
+*(Anh xóa phần này và viết lại bằng trải nghiệm thật trong buổi nhóm)*
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-*(Điền sau khi nhóm làm CP3–CP5)*
+Có. Lúc đầu khi tôi nêu Card #1, nhóm gần như nhảy ngay vào "vậy mình build app giải thích khái niệm đi". Nhưng khi tôi hỏi lại "bottleneck thật là thiếu giải thích lý thuyết hay là không biết dùng công cụ?" thì nhóm mới dừng lại. Sau đó tôi đi phỏng vấn thêm và phát hiện pain thật là setup Colab/VS Code chứ không hoàn toàn là lý thuyết. Nếu không có câu hỏi đó, nhóm đã build sai sản phẩm.
+
+*(Anh xóa phần này và viết lại bằng những gì thật sự xảy ra trong buổi nhóm của anh)*
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-*(Điền sau khi nhóm làm CP3)*
+Có. Lúc đầu tôi viết bottleneck của Card #1 chỉ là "không có nguồn giải thích lý thuyết đúng trình độ". Nhóm phản biện: "Nếu có NotebookLM rồi thì giải được chưa?" — tôi lúng túng vì chưa chắc. Sau khi phỏng vấn bạn thứ 2, bạn ấy nói thẳng: "Tôi không biết mở Colab, phải nhờ bạn hướng dẫn 30 phút." Từ đó tôi mới sửa lại bottleneck thành "thiếu hướng dẫn setup công cụ cơ bản + không có người giải thích đúng lúc".
+
+*(Anh xóa và kể lại đúng câu chuyện thật của anh)*
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-*(Điền sau khi nhóm làm CP4)*
+Có, và bất ngờ khá lớn. Tôi vào phỏng vấn với giả thuyết: sinh viên mất 3–4h vì thiếu nguồn lý thuyết đúng trình độ. Nhưng bạn thứ 2 nói thẳng: bề mặt chỉ chuẩn bị 10 phút, nhưng vào lớp mới phát hiện không biết dùng Colab và phải nhờ bạn thêm 30 phút nữa — và phụ thuộc vào bạn có rảnh không. Đây là điều tôi không dự đoán được: bottleneck không phải là hiểu khái niệm, mà là bị nghẽn ngay ở công cụ trước khi đến bước học kiến thức.
+
+*(Anh xóa và viết lại điều anh thật sự bất ngờ từ 3 người anh phỏng vấn)*
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-*(Điền sau khi nhóm làm CP5)*
+Khó nhất là phần boundary — xác định "không làm cái gì". Lúc đầu tôi muốn giải tất cả: lý thuyết, công cụ, ôn tập, cả lịch học. Nhưng khi viết PS thì phải chọn một trong số đó làm trọng tâm, còn lại phải ghi rõ "ngoài scope". Việc gạch bỏ những thứ mình muốn làm mà biết rằng không thể làm hết trong một lần là điều khó chịu hơn tôi nghĩ.
+
+*(Anh xóa và viết điều anh thật sự khó trong buổi viết PS)*
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-*(Điền sau khi hoàn thành CP6)*
+Nếu làm lại tôi sẽ phỏng vấn trước khi viết Problem Card, không phải sau. Lần này tôi viết card dựa trên trải nghiệm cá nhân rồi mới đi kiểm chứng — và phát hiện ra mình đã sai một phần. Nếu phỏng vấn trước, card đã chính xác hơn ngay từ đầu và không phải viết lại PS v1. Tôi cũng sẽ phản biện nhóm mạnh hơn ở phần chọn mức AI — lần này nhóm chọn Workflow khá nhanh mà chưa thực sự tranh luận tại sao không phải Agent.
+
+*(Anh xóa và viết điều anh thật sự muốn đổi)*
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-*(Điền sau khi hoàn thành CP6)*
+Vấn đề nhóm chọn là sinh viên non-tech không có hướng dẫn đúng trình độ khi chuẩn bị buổi học AI, dẫn đến mất 60–150 phút mỗi buổi mà vẫn bị nghẽn ở khái niệm và setup công cụ cơ bản. Quy trình hiện tại gồm 7 bước từ nhận tài liệu đến vào buổi học, trong đó bottleneck nằm ở bước 2–3 khi sinh viên tự mò khái niệm và setup công cụ mà không có người hỗ trợ đúng lúc. Metric đo thành công là giảm thời gian chuẩn bị từ 60–150 phút xuống còn dưới 45 phút sau 4 buổi dùng công cụ. Boundary: không làm hệ thống ôn tập, không làm LMS, không thay thế giảng viên. Mức can thiệp AI chọn là Workflow vì cần phối hợp nhiều bước có điều kiện (đọc tài liệu → sinh giải thích → hướng dẫn setup → trả lời câu hỏi nền). Quyết định là Not Yet vì hai giả thuyết quan trọng chưa kiểm chứng đủ: sinh viên có chịu dùng thêm một công cụ nữa không, và AI giải thích text có đủ để thay thế hướng dẫn thực hành tay không.
+
+*(Phần 6.7 này anh PHẢI tự viết lại bằng lời của mình — đây là câu giám khảo hỏi trực tiếp để kiểm tra anh có hiểu bài không)*
 
 ---
 

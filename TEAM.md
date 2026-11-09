@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Lưu Thanh Mỹ | 2A202603532 | Điều phối, kiểm chứng (phỏng vấn), viết Problem Statement | |
+| 2 | Nguyễn Trường Thành | | Chủ trì buổi pitch CP3, người phản biện chính | |
+| 3 | Nguyễn Thị Hải Yến | | Phụ trách kiểm chứng (phỏng vấn/survey thêm) | |
+| 4 | Bùi Mạnh Linh | | Ghi chép, điền bảng pitch + cluster | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -61,11 +61,51 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 *(Điền sau khi hoàn thành buổi lab)*
 
-### HoVaTen-MSSV
+### NguyenTruongThanh-MSSV
 
 **Phần việc phụ trách:**
+- CP3: Chủ trì buổi pitch — gọi lần lượt từng người trình bày card, giữ giờ, đặt câu hỏi phản biện
+- Tạo file báo cáo cá nhân (CP1 + CP2)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 -
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+---
+
+### NguyenThiHaiYen-MSSV
+
+**Phần việc phụ trách:**
+- CP4: Phỏng vấn thêm 1–2 người để kiểm chứng vấn đề nhóm chọn
+- Tạo file báo cáo cá nhân (CP1 + CP2)
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
+
+---
+
+### BuiManhLinh-MSSV
+
+**Phần việc phụ trách:**
+- CP3: Điền bảng pitch + cluster vào group_report sau khi nhóm thảo luận xong
+- Tạo file báo cáo cá nhân (CP1 + CP2)
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
