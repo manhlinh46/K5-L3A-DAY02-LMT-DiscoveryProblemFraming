@@ -39,8 +39,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 |Lặp lại|Khi nhận được thông báo đơn hàng sắp được giao trong ngày, tôi muốn hẹn trước khoảng thời gian khung giờ shipper đến, để chủ động sắp xếp lịch trình cá nhân|người đi làm, shipper|Chạm đúng nỗi đau lỡ việc của dân văn phòng, tần suất cao|Shipper có chịu đọc tin nhắn hẹn giờ không hay theo lộ trình cố định của bưu cục?|
-| 2 |Tốn thời gian|Khi shipper giao tới nơi và yêu cầu thanh toán tiền mặt, tôi muốn mở nhanh app ngân hàng và quét mã QR chính xác số tiền lẻ mà không cần nhập tay hay tìm tiền mặt, để hoàn tất nhận hàng dưới 1 phút|Quy trình thanh toán tại chỗ rất rõ ràng, thời gian đo được, nỗi đau (pain) xuất hiện liên tục mỗi lần nhận hàng|Shipper có sẵn QR code không hay chỉ đọc số tài khoản?|
+| 1 |Khi nhận được thông báo đơn hàng sắp được giao trong ngày, tôi muốn hẹn trước khoảng thời gian khung giờ shipper đến, để chủ động sắp xếp lịch trình cá nhân|Chạm đúng nỗi đau lỡ việc của dân văn phòng, tần suất cao|Shipper có chịu đọc tin nhắn hẹn giờ không hay theo lộ trình cố định của bưu cục?|
+| 2 |Khi shipper giao tới nơi và yêu cầu thanh toán tiền mặt, tôi muốn mở nhanh app ngân hàng và quét mã QR chính xác số tiền lẻ mà không cần nhập tay hay tìm tiền mặt, để hoàn tất nhận hàng dưới 1 phút|Quy trình thanh toán tại chỗ rất rõ ràng, thời gian đo được, nỗi đau (pain) xuất hiện liên tục mỗi lần nhận hàng|Shipper có sẵn QR code không hay chỉ đọc số tài khoản?|
 | 3 |Khi nhận được gói hàng COD lạ không rõ nguồn gốc, tôi muốn đối chiếu ngay thông tin sản phẩm và lịch sử đặt hàng trên các ứng dụng mua sắm, để biết chính xác đây là đơn mình mua thật hay là chiêu trò lừa đảo|Impact rất lớn (bảo vệ người dùng khỏi mất tiền oan), đánh đúng tâm lý bất an hiện nay|Việc lấy dữ liệu lịch sử đặt hàng từ nhiều nền tảng đóng (Shopee, TikTok) có khả thi về mặt kỹ thuật không?|
 
 ### Problem Card #1
