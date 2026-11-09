@@ -186,14 +186,13 @@ Bắt đầu làm bài
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-Tôi học được từ các bạn bao gồm: một bài toán về công việc thực tế từ bạn làm về nghiệp vụ hệ thống — bạn cần một hệ thống dashboard thực tế, gom được nhiều nền tảng lại với nhau. Đây là ý tưởng về cách tối ưu các nền tảng đang rời rạc.
+Tôi học được từ các bạn bao gồm: một bài toán về công việc thực tế từ bạn làm về nghiệp vụ hệ thống — bạn cần một hệ thống dashboard thực tế, gom được nhiều nền tảng lại với nhau, một bạn cần cải thiện UX, UI của các sản phẩm. Đây là ý tưởng về cách tối ưu các nền tảng đang rời rạc.
 
 
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 Nhóm tôi mọi người đều có những ý tưởng về phần mình đang làm và bắt đầu nghĩ đến giải pháp trong quá trình trao đổi. Mọi người có xu hướng nghĩ giải pháp trước, cho rằng vấn đề nằm ở khung hệ thống, nhưng thực ra vấn đề chưa đầy đủ — nó nằm ở UX, UI. Sau đó tôi giải thích lại rõ hơn các nghiệp vụ từng phần.
 Ngoài ra có những ý tưởng mọi người nghĩ về Shopee và cách các nền tảng hiện có vận hành, nhưng chưa thực sự triển khai được. Cách mọi người đặt tình huống và nhận định vấn đề từ nền tảng chưa thật chuẩn ở phần UX/UI — không nhất thiết phải gắn AI hay Agent vào.
-
 
 
 
