@@ -93,6 +93,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - `report/individual/2A202603512_NguyenTruongThanh.md`  với CP1, CP2 Đầy đủ
+- `report/team/group_report.md` Phần CP3, tổng hợp và hội tụ
 
 **Điều mình học được từ phần nhóm:**
 
