@@ -186,33 +186,32 @@ Bắt đầu làm bài
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-Tôi học được từ các bạn bao gồm: 1 bài toán về một công việc đang có thực tế là từ bạn làm về nghiệp vụ hệ thống: bạn cần 1 hệ thống dashboard thực tế, gom được nhiều nền tảng lại với nhau, một ý tưởng được làm sao để tối ưu các nền tảng đang rời rạc
+Tôi học được từ các bạn bao gồm: một bài toán về công việc thực tế từ bạn làm về nghiệp vụ hệ thống — bạn cần một hệ thống dashboard thực tế, gom được nhiều nền tảng lại với nhau. Đây là ý tưởng về cách tối ưu các nền tảng đang rời rạc.
 
 
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-Nhóm tôi mọi người đều có những ý tưởng về các phần mọi người đang có, và đang nghĩ vấn đề sau đó mọi người cùng trao đổi. Trong quá trình trao đổi mọi người đang nghĩ giải pháp trước, hiểu rằng có những vấn đề về khung hệ thống, lỗi này thường chưa đầy đủ. Vấn đề nó ở UX, UI => Sau đó tôi giải thích lại rõ hơn các nghiệp vụ các phần 
-Và có những ý tưởng mọi người nghĩ về shopee và cách các nền tảng đang có nhưng chưa thực sự triển khai được, cách mn đặt tình huống và nhận định đc các các vấn đề từ nền tảng, nó chưa chuẩn lắm ở phần UX< UI chứ ko phải nhất thiết phải gắn AI, Agent vào
+Nhóm tôi mọi người đều có những ý tưởng về phần mình đang làm và bắt đầu nghĩ đến giải pháp trong quá trình trao đổi. Mọi người có xu hướng nghĩ giải pháp trước, cho rằng vấn đề nằm ở khung hệ thống, nhưng thực ra vấn đề chưa đầy đủ — nó nằm ở UX, UI. Sau đó tôi giải thích lại rõ hơn các nghiệp vụ từng phần.
+Ngoài ra có những ý tưởng mọi người nghĩ về Shopee và cách các nền tảng hiện có vận hành, nhưng chưa thực sự triển khai được. Cách mọi người đặt tình huống và nhận định vấn đề từ nền tảng chưa thật chuẩn ở phần UX/UI — không nhất thiết phải gắn AI hay Agent vào.
 
 
 
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Tôi không, tôi chia sẽ rõ các đề tải của mình với nhóm và đang nêu các thực trạng hiện tại đang có, những vấn đề tôi trình bày theo hướng vấn đề chung mn đang làm, các phần mọi người đang gặp, sau đó tôi đưa ra ý tưởng và nói mn cách tôi đang làm và ý tưởng tôi sẽ đi đến đâu
+Tôi không đổi ý. Tôi chia sẻ rõ các đề tài của mình với nhóm và nêu các thực trạng hiện tại đang có. Những vấn đề tôi trình bày theo hướng vấn đề chung mọi người đang gặp, sau đó tôi đưa ra ý tưởng và trình bày cách tôi đang tiếp cận và hướng đi tiếp theo.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Tôi hơi bất ngờ , 1 số bạn sinh viên mất vài giờ, và thực sự khi có người giải thích đủ dễ hiểu thì bạn ấy hiểu rất nhanh, điều này hơi bất ngờ về điểm nghẽn được giải quyết, tôi thấy mn có đặt 1 giả thuyết nếu muốn bài bản chỉn chu, mn sẽ không lựa chọn, mn chọn các nền tảng lớn đang có để học bài bản, và cũng câu hỏi đó tôi đi hỏi Lap Couch thì anh ấy bảo nó thực sự hữu ích điều mà nền tảng chưa làm được
+Tôi hơi bất ngờ — một số bạn sinh viên mất vài giờ chuẩn bị, nhưng thực sự khi có người giải thích đủ dễ hiểu thì bạn ấy hiểu rất nhanh. Điều này khá bất ngờ vì nó cho thấy điểm nghẽn hoàn toàn có thể giải quyết được. Tôi cũng nhận thấy mọi người có đặt giả thuyết: nếu muốn học bài bản, chỉn chu, mọi người sẽ không chọn công cụ nhỏ lẻ mà chọn các nền tảng lớn đang có. Với câu hỏi đó, tôi đi hỏi thêm một người có kinh nghiệm thực chiến (Lap Coach) thì anh ấy cho rằng công cụ như vậy thực sự hữu ích vì đây là điều các nền tảng lớn chưa làm được.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-
-Điều khó nhất là xác định sẽ bỏ đi những cái gì, ý tưởng khá nhiều nhưng đôi khi chính nó lại là điểm khó
+Điều khó nhất là xác định sẽ bỏ đi những gì. Ý tưởng khá nhiều nhưng đôi khi chính sự nhiều ý đó lại là điểm khó nhất.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Nếu làm lại, tôi sẽ phản biện nhóm mạnh ở điểm: tôi khuyên mn hãy giải thích các phần của mình, tôi sẽ hiểu rõ ý tưởng của từng người, những vấn đề nào mn muốn giải, tổng hợp lại hết nó lại, để làm sao có thể giải quyết được cho mn
+Nếu làm lại, tôi sẽ phản biện nhóm mạnh hơn ở điểm: khuyến khích mọi người giải thích rõ ràng hơn từng phần của mình. Tôi sẽ dành thời gian hiểu rõ ý tưởng của từng người, những vấn đề nào mọi người muốn giải quyết, rồi tổng hợp lại để tìm ra hướng đi chung có thể giải quyết được cho cả nhóm.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
