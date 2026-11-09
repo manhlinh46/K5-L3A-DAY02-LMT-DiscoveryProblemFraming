@@ -147,7 +147,7 @@ HIỆN TẠI — ~60 phút / công trình
 | Pitch Problem Card         | Tôi đã trình bày problem card của tôi với nhóm, problem card #1                                                              | Nhóm đã phản biện về tính khả thi của bài tôi                                                                                             |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Liệu phương pháp đưa ra tổng hợp cho những bạn non-tech đó có những sản phẩm có sẵn trên thị trường chưa | Bối cảnh được thay đổi sang một AI điều hướng hỗ trợ cho các bạn non-tech học gì và ở đâu thay vì tìm và tổng hợp hộ tài liệu.            |
 | Nhận phản biện             | Câu hỏi tôi nhận được: Metric được đo lường cụ thể là như thế nào?                                                           | Tôi đã sửa gì: metric đo lường của problem card 1 được sửa thành đo tiến độ làm ra file cập nhật giá trong thời gian nhanh, dưới 1 tiếng. |
-| Gom cluster / cây OST      |                                                                                                                              |                                                                                                                                           |
+| Gom cluster / cây OST      | Gom cluster nhóm B, các problem liên quan đến sử dụng dữ liệu nội bộ của ngành xây dựng                                      | Gom cluster nhóm B                                                                                                                        |
 | Chọn candidate problem     |                                                                                                                              |                                                                                                                                           |
 | Kiểm chứng / research      |                                                                                                                              |                                                                                                                                           |
 | Quy trình nhóm             |                                                                                                                              |                                                                                                                                           |
@@ -159,14 +159,14 @@ HIỆN TẠI — ~60 phút / công trình
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| Checkpoint                     | Tôi dùng AI để làm gì?                                                            | AI hữu ích ở đâu?                                                   | AI sai hoặc hời hợt ở đâu?                     | Tôi sửa gì bằng nhận định của mình?                                        |
+| ------------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
+| CP1 Scan                       | AI reword lại cho đúng cấu trúc job story từ ý tưởng em nghĩ ra                   | AI hữu ích ở việc đưa ra gợi ý và cấu trúc để viết job story hợp lý |                                                | Viết lại jobstory từ những trải nhiệm cá nhân, có bottleneck và số thực tế |
+| CP2 Problem Card               | AI đưa ra gợi ý về thông tin problem cards                                        | AI hữu ích ở việc gợi ý các bước quy trình sao cho hợp lý           | Ai đưa ra những số giờ bottleneck chưa thực tế | Sửa lại các step quy trình cho hợp lý, không bị chung chung như ban đầu    |
+| CP4 Research                   | AI tổng hợp các ý từ việc phỏng vấn 3 người trong lớp để phục vụ problem của nhóm |                                                                     |                                                |                                                                            |
+| CP5 Quy trình                  |                                                                                   |                                                                     |                                                |                                                                            |
+| CP5–6 Problem Statement        |                                                                                   |                                                                     |                                                |                                                                            |
+| CP6 Mức can thiệp / quyết định |                                                                                   |                                                                     |                                                |                                                                            |
 
 ---
 
@@ -175,18 +175,19 @@ HIỆN TẠI — ~60 phút / công trình
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+Có góc nhìn vấn đề từ khía cạnh khác, ý tưởng của các bạn có thể chưa hẳn là hợp lý hoặc quá độc đáo mới mẻ, nhưng là những vấn đề gần gũi mà đáng tìm hiểu sâu thêm để đưa ra khảo sát xem thị trường có thực sự cần không.
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+Nhóm có vài ý tưởng, jobstory đang nghĩ về giải pháp trước, vấn đề sau, ví dụ một ý tưởng là tích hợp chuyển khoản nhanh bằng mã QR có ghi sẵn số tiền của gói hàng -> solution là mã QR thông minh để giải quyết vấn đề là Chuyển khoản cho nhanh, tuy nhiên việc quét mã tài khoản chung của shipper, xong điền số tiền cũng nhanh không kém, problem này bị solution first.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Tôi có đổi ý sau khi được phản biện, những ý tưởng của tôi xuất phát từ trải nhiệm cá nhân khi đi thực tập, để có khảo sát thực tế còn rất khó. Ví dụ về vấn đề bốc tách khối lượng, tôi thấy khó vì là người mới, chưa quen, với người làm lâu năm hoặc đúng ngành, họ có thể lại thấy bình thường và quy trình bốc tách hiện tại không phải vấn đề.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Kết quả kiểm chứng của nhóm, là interview với một vài người trong lớp lab, sau khi interview có những thay đổi về problem và ý tưởng của nhóm. Nhóm sẽ thiên về hỗ trợ công cụ để mọi người trong khóa học có thể có bước đầu tốt hơn, có hướng dẫn cơ bản và đại trà hơn.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Cá nhân tôi thấy, điều khó nhất khi viết problem statement là vào được POV của khách hàng, của người có painpoint, để từ đó đưa ra được vấn đề đúng, tránh bị giải pháp đi trước problem.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Nếu làm lại, tôi sẽ đưa ra những problem statement phù hợp hơn, nếu có thời gian sẽ tìm hiểu research được những vấn đề problem statement của tôi rõ hơn. Tôi sẽ phản biện nhóm mạnh hơn ở các ý tưởng của người khác.
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Mỗi người trong nhóm đưa ra các ý tưởng riêng -> pitch ý tưởng top 3 với cả nhóm -> đưa ra ý tưởng có thể research và phỏng vấn trong khung thời gian lab còn hạn chế -> đưa ra metric boandary về khả năng của ý tưởng nhóm (hỗ trợ những bạn non-tech setup công cụ học trong chương trình một cách hiệu quả)-> mức can thiệp AI là tổng hợp và tóm tắt thông tin, cũng như critic lại ý tưởng và bài làm, AI chỉ là người góp ý, suy nghĩ và ý tưởng là của mỗi người, ai trong nhóm cũng đọc và suy nghĩ góp ý của AI rồi mới đưa vào bài chung. -> quyết định bài của nhóm được dẫn đầu bởi bạn Mỹ, rất chủ động để xây dựng ý tưởng đến bước cuối.
 
 ---
 
