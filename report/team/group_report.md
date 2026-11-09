@@ -5,9 +5,9 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: LMT
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
+- Candidate problem được chọn (1 câu): Sinh viên non-tech không có nguồn hướng dẫn đúng trình độ để chuẩn bị cho buổi học AI Engineer, dẫn đến mất 30 phút đến 3 tiếng mỗi buổi mà vẫn bị nghẽn ở bước dùng công cụ cơ bản.
 - Quyết định cuối: Go / Not Yet / No-Go
 
 ---
@@ -76,49 +76,46 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.1. Assumption Map
 
-| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+| # | Giả định | Loại | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Sinh viên non-tech thực sự mất nhiều thời gian hơn bạn có nền tảng | Value | 5 | 2 | ✅ Ưu tiên 1 |
+| 2 | Bottleneck chính là hiểu lý thuyết, không phải dùng công cụ | Usability | 5 | 1 | ✅ Ưu tiên 1 |
+| 3 | Sinh viên sẵn sàng dùng thêm một công cụ mới để học | Usability | 4 | 1 | ✅ Ưu tiên 2 |
+| 4 | Có thể cá nhân hoá lộ trình mà không cần chuyên gia duyệt từng bước | Feasibility | 5 | 1 | ✅ Ưu tiên 2 |
+| 5 | Giải thích khái niệm đúng level giúp sinh viên làm được bài | Value | 4 | 2 | Ưu tiên 3 |
+| 6 | Trường/khoá có đủ tài liệu số để hệ thống đọc và tóm tắt | Feasibility | 3 | 3 | Ưu tiên 3 |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: **Giả định 1 và 2** (quan trọng nhất, ít bằng chứng nhất)
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: **Phỏng vấn nhanh qua nhắn tin nhóm — 3 người, ngày 09/11/2026**
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
-
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+Interview snapshot chi tiết: xem
+- [cp4-interview-snapshot-1.md](../assets/cp4-interview-snapshot-1.md) — Sinh viên non-tech, 30–45 phút/buổi
+- [cp4-interview-snapshot-2.md](../assets/cp4-interview-snapshot-2.md) — Sinh viên non-tech, bị nghẽn ở công cụ
+- [cp4-interview-snapshot-3.md](../assets/cp4-interview-snapshot-3.md) — Người có kinh nghiệm, 2–3 tiếng/buổi setup
 
 Tổng hợp:
 
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+| Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn nhắn tin | 3 | Pain có thật; thời gian từ 10 phút đến 3 tiếng; đều muốn có hướng dẫn phù hợp trình độ | Khó triển khai, cần chuyên gia giáo dục; không thể auto hoàn toàn |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
+Giả định ban đầu sai một phần: Bottleneck **không phải** chỉ là hiểu lý thuyết — mà còn là **không biết dùng công cụ cơ bản** (Colab, VS Code) và **không có người hướng dẫn đúng lúc**. Nhóm cập nhật lại:
+
+- **Trước kiểm chứng:** "Sinh viên mất 3–4h vì phải tự tìm kiếm kiến thức nền"
+- **Sau kiểm chứng:** "Sinh viên bị nghẽn vì không có nguồn hướng dẫn đúng trình độ — bao gồm cả lý thuyết lẫn setup công cụ — và phải phụ thuộc vào bạn bè có sẵn hay không"
+
 ### 3.3. Research giải pháp đã có
 
-| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
+| Công cụ / case / pattern | Link | Giải bước nào? | Điểm mạnh | Khoảng trống | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| NotebookLM (Google) | https://notebooklm.google.com | Tóm tắt tài liệu, trả lời câu hỏi từ file upload | Hiểu đúng nội dung tài liệu gốc, trích dẫn chính xác | Không hướng dẫn setup công cụ, không cá nhân hoá theo trình độ | AI đọc tài liệu được — nhưng không dạy được cách thực hành |
+| Khanmigo (Khan Academy AI) | https://www.khanacademy.org/khan-labs | Giải thích khái niệm, dẫn dắt từng bước | Cá nhân hoá, hỏi đáp theo Socratic method | Không có nội dung AI Engineering, không dùng tài liệu của trường | Hướng đúng — nhưng cần áp dụng cho domain AI Engineering cụ thể |
+| GitHub Copilot Chat | https://github.com/features/copilot | Hỏi về code, giải thích lỗi, hướng dẫn setup | Trả lời đúng context code, hỗ trợ setup VS Code/Colab | Cần biết hỏi gì, không tự dẫn dắt lộ trình; cần có file code trước | Giải được bước công cụ nhưng không giải được bước "tôi cần học gì hôm nay" |
 
 ---
 
@@ -126,39 +123,62 @@ Tổng hợp:
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
-
 ```text
-
+Nhận thông báo buổi học / link tài liệu
+           ↓
+Mở tài liệu — đọc lần đầu (10–30 phút)
+           ↓
+Gặp thuật ngữ / tool chưa biết  ← BOTTLENECK CHÍNH
+           ↓
+Tự Google / hỏi AI / xem YouTube (~30–90 phút)
+           ↓
+Vẫn chưa rõ → nhờ bạn hỗ trợ trực tiếp (~30 phút, nếu có bạn)
+           ↓
+Mở tool (Colab / VS Code) — không biết setup → hỏi bạn thêm
+           ↓
+Bắt đầu buổi học — vẫn còn mơ hồ hoặc trễ tiến độ
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Sinh viên | Thông báo buổi học | Mở tài liệu | 5 phút | Mỗi buổi |
+| 2 | Sinh viên | Slide / repo | Danh sách điểm chưa hiểu | 10–30 phút | Mỗi buổi |
+| 3 | Sinh viên | Thuật ngữ lạ | Giải thích | 30–90 phút | **BOTTLENECK** — không có nguồn đúng level |
+| 4 | Sinh viên + bạn | Câu hỏi cụ thể | Hướng dẫn setup | 30 phút | Phụ thuộc bạn có rảnh không |
+| 5 | Sinh viên | Tool đã setup | Bắt đầu làm bài | 10 phút | Thường bị trễ so với bạn có nền tảng |
 
-**Bottleneck chính:**
+**Bottleneck chính:** Bước 3 — không có nguồn giải thích đúng trình độ cho từng người, dẫn đến mất 30–90 phút tìm kiếm không hiệu quả và/hoặc phụ thuộc bạn bè.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
-
 ```text
-
+Nhận thông báo buổi học
+           ↓
+[AI - Workflow] Đọc tài liệu → tóm tắt 5 điểm cần biết hôm nay,
+  giải thích thuật ngữ theo trình độ người dùng,
+  hướng dẫn setup tool từng bước
+           ↓
+Sinh viên đọc tóm tắt + hỏi câu hỏi cụ thể (~15–20 phút)
+           ↓
+[Con người kiểm tra] Sinh viên tự xác nhận đã hiểu trước khi vào bài
+           ↓
+Bắt đầu buổi học — đúng giờ, đủ nền tảng
+           ↓
+[Phương án quay về] Nếu AI giải thích sai hoặc không đủ → sinh viên
+  hỏi thêm bạn/giảng viên như bình thường
 ```
+
+**Boundary:** AI chỉ giải thích và tóm tắt — không làm bài thay sinh viên, không tự quyết định lộ trình dài hạn mà không có chuyên gia duyệt.
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+|---|---|---|---|
+| Số bước | 5 bước | 4 bước | Gộp bước tìm kiếm vào AI |
+| Tổng thời gian | 60–150 phút | 20–30 phút | Mục tiêu giảm 70% |
+| Số bước thủ công | 5 | 2 | Bước 3–4 được AI hỗ trợ |
+| Bottleneck chính | Tìm kiếm không đúng level | Sinh viên tự xác nhận hiểu | Con người vẫn kiểm tra |
+| Rủi ro mới phát sinh | — | AI giải thích sai; sinh viên tin mù | Cần HITL ở bước xác nhận |
 
 ---
 
@@ -166,16 +186,16 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên non-tech đang học khoá AI Engineer (K5), chưa có nền tảng lập trình |
+| **Quy trình** | Chuẩn bị trước mỗi buổi học: đọc tài liệu → hiểu khái niệm nền → setup công cụ → sẵn sàng làm bài |
+| **Bottleneck** | Bước hiểu khái niệm + setup công cụ: không có nguồn giải thích đúng trình độ, phải tự Google hoặc nhờ bạn, mất 30–90 phút mỗi buổi |
+| **Impact** | Sinh viên bị tụt lại so với bạn có nền tảng; phụ thuộc vào việc bạn có rảnh không; dần mất động lực, học vẹt hoặc bỏ cuộc |
+| **Success Metric** | Baseline: 60–150 phút/buổi để sẵn sàng. Target: dưới 30 phút. Đo bằng: sinh viên tự báo cáo thời gian chuẩn bị sau 4 buổi dùng hệ thống |
+| **Boundary** | AI chỉ giải thích khái niệm và hướng dẫn setup dựa trên tài liệu có sẵn. AI **không** làm bài thay, không tự quyết lộ trình dài hạn không có chuyên gia duyệt. Sinh viên phải tự xác nhận hiểu trước khi vào bài (HITL). |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
-
--
+Phản biện nhận được (từ AI đóng vai PM hoài nghi):
+- *"Nếu chỉ hiểu đủ để bắt đầu mà không hiểu sâu, sinh viên có thực sự học được gì không?"* → Nhóm đồng ý một phần — cần thêm tiêu chí đánh giá "hiểu" không chỉ là "có thể bắt đầu"
+- *"Giải pháp buddy system (nhờ bạn) đang hoạt động — tại sao cần build thêm?"* → Nhóm không đồng ý: buddy system phụ thuộc vào bạn có rảnh, không scale được
 
 ---
 
