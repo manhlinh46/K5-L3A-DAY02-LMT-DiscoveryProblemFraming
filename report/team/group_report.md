@@ -24,9 +24,9 @@
 | 4 | Nguyễn Trường Thành | *(Điền theo card của bạn Thành)* | | | |
 | 5 | Nguyễn Trường Thành | *(Điền theo card của bạn Thành)* | | | |
 | 6 | Nguyễn Trường Thành | *(Điền theo card của bạn Thành)* | | | |
-| 7 | *(Thành viên 3)* | *(Điền theo card)* | | | |
-| 8 | *(Thành viên 3)* | *(Điền theo card)* | | | |
-| 9 | *(Thành viên 3)* | *(Điền theo card)* | | | |
+| 7 | Bùi Mạnh Linh | Khi nhận được thông báo đơn hàng sắp được giao trong ngày, tôi muốn hẹn trước khoảng thời gian khung giờ shipper đến, để chủ động sắp xếp lịch trình cá nhân|Dân văn phòng, shipper có tần suất cao | Cuộc gọi bất ngờ làm gián đoạn luồng công việc; không có cơ chế chốt trước giờ rảnh từ đầu ngày | Đã có tính năng chọn thời gian giao hàng | 
+| 8 | Bùi Mạnh Linh | Khi shipper giao tới nơi và yêu cầu thanh toán tiền mặt, tôi muốn mở nhanh app ngân hàng và quét mã QR chính xác số tiền lẻ mà không cần nhập tay hay tìm tiền mặt, để hoàn tất nhận hàng dưới 1 phút | Người mua hàng COD, Shipper |Lấy thông tin tài khoản và nhập tay số tiền lẻ, dễ nhập nhầm số hoặc chọn sai ngân hàng, mất khoảng 2 phút | ÃM qr có giới hạn thời gian, tốn tài nguyên |
+| 9 | Bùi Mạnh Linh | Khi nhận được gói hàng COD lạ không rõ nguồn gốc, tôi muốn đối chiếu ngay thông tin sản phẩm và lịch sử đặt hàng trên các ứng dụng mua sắm, để biết chính xác đây là đơn mình mua thật hay là chiêu trò lừa đảo | Người mua lo ngại lừa đảo, Shipper | Tra cứu thủ công, lục lọi rải rác trên nhiều app khác nhau bằng trí nhớ mất rất nhiều thời gian | Đây là chủ đề liên quan đến lừa đảo |
 | 10 | *(Thành viên 4)* | *(Điền theo card)* | | | |
 | 11 | *(Thành viên 4)* | *(Điền theo card)* | | | |
 | 12 | *(Thành viên 4)* | *(Điền theo card)* | | | |
