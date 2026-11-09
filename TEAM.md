@@ -5,8 +5,8 @@
 ## Thông tin nhóm
 
 - Tên nhóm:LMT
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Candidate problem nhóm chọn (1 câu): Sinh viên non-tech không có nguồn hướng dẫn đúng trình độ khi chuẩn bị buổi học AI Engineer, dẫn đến mất 60–150 phút mỗi buổi mà vẫn bị nghẽn ở khái niệm và setup công cụ cơ bản
+- Quyết định cuối: Not Yet
 
 ## Thành viên
 
@@ -25,17 +25,41 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Lưu Thanh Mỹ | Cả nhóm | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Lưu Thanh Mỹ | Cả nhóm | Assumption map, 3 interview snapshot |
+| CP4 — Research | Lưu Thanh Mỹ | Cả nhóm | Bảng research 3 công cụ có link |
+| CP5 — Quy trình trước/sau | Lưu Thanh Mỹ | Cả nhóm | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Lưu Thanh Mỹ | Cả nhóm | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Lưu Thanh Mỹ | Cả nhóm | Ma trận, AI Canvas, 5 tiêu chí eval, Problem Statement v1 |
+| CP6 — Quyết định | Lưu Thanh Mỹ | Cả nhóm | 4 rủi ro + Not Yet + ngưỡng dừng |
 
 ## Cá nhân
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
+
+### LuuThanhMy-2A202603532
+
+**Phần việc phụ trách:**
+- CP1: Scan 5 vấn đề từ trải nghiệm thật
+- CP2: Viết 3 Problem Card, chọn card pitch chính
+- CP4: Phỏng vấn 3 người, tổng hợp insight, viết assumption map và research
+- CP5: Vẽ quy trình hiện tại/tương lai, viết Problem Statement v0
+- CP6: So sánh 4 mức AI, điền AI Canvas, viết Problem Statement v1, ra quyết định Not Yet
+
+**Đóng góp cụ thể:**
+- Phỏng vấn 3 người thật ngày 09/11/2026 qua nhắn tin nhóm
+- Phát hiện insight quan trọng: bottleneck thật là setup công cụ + thiếu người hướng dẫn, không chỉ là lý thuyết
+- Điền toàn bộ group_report mục 3–8
+- Viết skill discovery-lab để nhóm dùng lại
+
+**Bằng chứng:**
+- `report/individual/2A202603532_LuuThanhMy.md` — CP1, CP2 đầy đủ
+- `report/assets/cp4-interview-snapshot-1.md`, `-2.md`, `-3.md` — 3 phỏng vấn thật
+- `report/team/group_report.md` mục 3–8 — CP4, CP5, CP6
+- Commit: `CP4: add 3 interview snapshots, assumption map, research, process flow, PS v0`
+
+**Điều mình học được từ phần nhóm:**
+*(Điền sau khi hoàn thành buổi lab)*
 
 ### HoVaTen-MSSV
 
