@@ -15,7 +15,7 @@
 |   1 | Lưu Thanh Mỹ        | 2A202603532 | Điều phối, kiểm chứng (phỏng vấn), viết Problem Statement |                  |
 |   2 | Nguyễn Trường Thành | 2A202603512 | Chủ trì buổi pitch CP3, người phản biện chính             | Thanhnt-da       |
 |   3 | Nguyễn Thị Hải Yến  |             | Phụ trách kiểm chứng (phỏng vấn/survey thêm)              |                  |
-|   4 | Bùi Mạnh Linh       |             | Ghi chép, điền bảng pitch + cluster                       |                  |
+|   4 | Bùi Mạnh Linh       | 2A202603539 | Ghi chép, điền bảng pitch + cluster                       | manhlinh46       |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -73,6 +73,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 - Phần 5. Problem Statement v0 (CP5) trong group_report.md
+-`report/individual/2A202603539_BuiManhLinh.md`  với CP1, CP2 Đầy đủ
 
 **Điều mình học được từ phần nhóm:**
 

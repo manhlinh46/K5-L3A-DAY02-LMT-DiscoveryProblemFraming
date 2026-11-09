@@ -8,7 +8,7 @@
 - Tên nhóm: LMT
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Sinh viên non-tech không có nguồn hướng dẫn đúng trình độ để chuẩn bị cho buổi học AI Engineer, dẫn đến mất 30 phút đến 3 tiếng mỗi buổi mà vẫn bị nghẽn ở bước dùng công cụ cơ bản.
-- Quyết định cuối: Go / Not Yet / No-Go
+- Quyết định cuối: Not Yet
 
 ---
 
