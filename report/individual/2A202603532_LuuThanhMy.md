@@ -186,46 +186,39 @@ Bắt đầu làm bài
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi học được từ các bạn bao gồm: 1 bài toán về một công việc đang có thực tế là từ bạn làm về nghiệp vụ hệ thống: bạn cần 1 hệ thống dashboard thực tế, gom được nhiều nền tảng lại với nhau, một ý tưởng được làm sao để tối ưu các nền tảng đang rời rạc
 
-Khi nghe các bạn pitch, tôi nhận ra nhiều vấn đề mà các bạn nêu ra tôi cũng từng gặp nhưng chưa bao giờ đặt tên cho nó. Ví dụ vấn đề về việc không biết bắt đầu từ đâu khi vào buổi thực hành — tôi cứ nghĩ đó là do mình chưa quen, nhưng khi nghe bạn trình bày rõ thành Job Story thì mới thấy đây là pain có thể giải được. Điều tôi học được là việc đặt tên đúng cho vấn đề quan trọng hơn tôi nghĩ — cùng một trải nghiệm khó chịu nhưng nếu không diễn đạt được "ai, khi nào, mất bao nhiêu" thì không thể bắt đầu giải.
 
-*(Anh xóa phần này và viết lại bằng trải nghiệm thật trong buổi nhóm)*
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Nhóm tôi mọi người đều có những ý tưởng về các phần mọi người đang có, và đang nghĩ vấn đề sau đó mọi người cùng trao đổi. Trong quá trình trao đổi mọi người đang nghĩ giải pháp trước, hiểu rằng có những vấn đề về khung hệ thống, lỗi này thường chưa đầy đủ. Vấn đề nó ở UX, UI => Sau đó tôi giải thích lại rõ hơn các nghiệp vụ các phần 
+Và có những ý tưởng mọi người nghĩ về shopee và cách các nền tảng đang có nhưng chưa thực sự triển khai được, cách mn đặt tình huống và nhận định đc các các vấn đề từ nền tảng, nó chưa chuẩn lắm ở phần UX< UI chứ ko phải nhất thiết phải gắn AI, Agent vào
 
-Có. Lúc đầu khi tôi nêu Card #1, nhóm gần như nhảy ngay vào "vậy mình build app giải thích khái niệm đi". Nhưng khi tôi hỏi lại "bottleneck thật là thiếu giải thích lý thuyết hay là không biết dùng công cụ?" thì nhóm mới dừng lại. Sau đó tôi đi phỏng vấn thêm và phát hiện pain thật là setup Colab/VS Code chứ không hoàn toàn là lý thuyết. Nếu không có câu hỏi đó, nhóm đã build sai sản phẩm.
 
-*(Anh xóa phần này và viết lại bằng những gì thật sự xảy ra trong buổi nhóm của anh)*
+
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Có. Lúc đầu tôi viết bottleneck của Card #1 chỉ là "không có nguồn giải thích lý thuyết đúng trình độ". Nhóm phản biện: "Nếu có NotebookLM rồi thì giải được chưa?" — tôi lúng túng vì chưa chắc. Sau khi phỏng vấn bạn thứ 2, bạn ấy nói thẳng: "Tôi không biết mở Colab, phải nhờ bạn hướng dẫn 30 phút." Từ đó tôi mới sửa lại bottleneck thành "thiếu hướng dẫn setup công cụ cơ bản + không có người giải thích đúng lúc".
-
-*(Anh xóa và kể lại đúng câu chuyện thật của anh)*
+Tôi không, tôi chia sẽ rõ các đề tải của mình với nhóm và đang nêu các thực trạng hiện tại đang có, những vấn đề tôi trình bày theo hướng vấn đề chung mn đang làm, các phần mọi người đang gặp, sau đó tôi đưa ra ý tưởng và nói mn cách tôi đang làm và ý tưởng tôi sẽ đi đến đâu
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Có, và bất ngờ khá lớn. Tôi vào phỏng vấn với giả thuyết: sinh viên mất 3–4h vì thiếu nguồn lý thuyết đúng trình độ. Nhưng bạn thứ 2 nói thẳng: bề mặt chỉ chuẩn bị 10 phút, nhưng vào lớp mới phát hiện không biết dùng Colab và phải nhờ bạn thêm 30 phút nữa — và phụ thuộc vào bạn có rảnh không. Đây là điều tôi không dự đoán được: bottleneck không phải là hiểu khái niệm, mà là bị nghẽn ngay ở công cụ trước khi đến bước học kiến thức.
-
-*(Anh xóa và viết lại điều anh thật sự bất ngờ từ 3 người anh phỏng vấn)*
+Tôi hơi bất ngờ , 1 số bạn sinh viên mất vài giờ, và thực sự khi có người giải thích đủ dễ hiểu thì bạn ấy hiểu rất nhanh, điều này hơi bất ngờ về điểm nghẽn được giải quyết, tôi thấy mn có đặt 1 giả thuyết nếu muốn bài bản chỉn chu, mn sẽ không lựa chọn, mn chọn các nền tảng lớn đang có để học bài bản, và cũng câu hỏi đó tôi đi hỏi Lap Couch thì anh ấy bảo nó thực sự hữu ích điều mà nền tảng chưa làm được
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Khó nhất là phần boundary — xác định "không làm cái gì". Lúc đầu tôi muốn giải tất cả: lý thuyết, công cụ, ôn tập, cả lịch học. Nhưng khi viết PS thì phải chọn một trong số đó làm trọng tâm, còn lại phải ghi rõ "ngoài scope". Việc gạch bỏ những thứ mình muốn làm mà biết rằng không thể làm hết trong một lần là điều khó chịu hơn tôi nghĩ.
 
-*(Anh xóa và viết điều anh thật sự khó trong buổi viết PS)*
+Điều khó nhất là xác định sẽ bỏ đi những cái gì, ý tưởng khá nhiều nhưng đôi khi chính nó lại là điểm khó
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Nếu làm lại tôi sẽ phỏng vấn trước khi viết Problem Card, không phải sau. Lần này tôi viết card dựa trên trải nghiệm cá nhân rồi mới đi kiểm chứng — và phát hiện ra mình đã sai một phần. Nếu phỏng vấn trước, card đã chính xác hơn ngay từ đầu và không phải viết lại PS v1. Tôi cũng sẽ phản biện nhóm mạnh hơn ở phần chọn mức AI — lần này nhóm chọn Workflow khá nhanh mà chưa thực sự tranh luận tại sao không phải Agent.
-
-*(Anh xóa và viết điều anh thật sự muốn đổi)*
+Nếu làm lại, tôi sẽ phản biện nhóm mạnh ở điểm: tôi khuyên mn hãy giải thích các phần của mình, tôi sẽ hiểu rõ ý tưởng của từng người, những vấn đề nào mn muốn giải, tổng hợp lại hết nó lại, để làm sao có thể giải quyết được cho mn
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
 Vấn đề nhóm chọn là sinh viên non-tech không có hướng dẫn đúng trình độ khi chuẩn bị buổi học AI, dẫn đến mất 60–150 phút mỗi buổi mà vẫn bị nghẽn ở khái niệm và setup công cụ cơ bản. Quy trình hiện tại gồm 7 bước từ nhận tài liệu đến vào buổi học, trong đó bottleneck nằm ở bước 2–3 khi sinh viên tự mò khái niệm và setup công cụ mà không có người hỗ trợ đúng lúc. Metric đo thành công là giảm thời gian chuẩn bị từ 60–150 phút xuống còn dưới 45 phút sau 4 buổi dùng công cụ. Boundary: không làm hệ thống ôn tập, không làm LMS, không thay thế giảng viên. Mức can thiệp AI chọn là Workflow vì cần phối hợp nhiều bước có điều kiện (đọc tài liệu → sinh giải thích → hướng dẫn setup → trả lời câu hỏi nền). Quyết định là Not Yet vì hai giả thuyết quan trọng chưa kiểm chứng đủ: sinh viên có chịu dùng thêm một công cụ nữa không, và AI giải thích text có đủ để thay thế hướng dẫn thực hành tay không.
 
-*(Phần 6.7 này anh PHẢI tự viết lại bằng lời của mình — đây là câu giám khảo hỏi trực tiếp để kiểm tra anh có hiểu bài không)*
+
 
 ---
 
