@@ -25,7 +25,7 @@
 | 5 | Nguyễn Trường Thành | *(Điền theo card của bạn Thành)* | | | |
 | 6 | Nguyễn Trường Thành | *(Điền theo card của bạn Thành)* | | | |
 | 7 | Bùi Mạnh Linh | Khi nhận được thông báo đơn hàng sắp được giao trong ngày, tôi muốn hẹn trước khoảng thời gian khung giờ shipper đến, để chủ động sắp xếp lịch trình cá nhân|Dân văn phòng, shipper có tần suất cao | Cuộc gọi bất ngờ làm gián đoạn luồng công việc; không có cơ chế chốt trước giờ rảnh từ đầu ngày | Đã có tính năng chọn thời gian giao hàng | 
-| 8 | Bùi Mạnh Linh | Khi shipper giao tới nơi và yêu cầu thanh toán tiền mặt, tôi muốn mở nhanh app ngân hàng và quét mã QR chính xác số tiền lẻ mà không cần nhập tay hay tìm tiền mặt, để hoàn tất nhận hàng dưới 1 phút | Người mua hàng COD, Shipper |Lấy thông tin tài khoản và nhập tay số tiền lẻ, dễ nhập nhầm số hoặc chọn sai ngân hàng, mất khoảng 2 phút | ÃM qr có giới hạn thời gian, tốn tài nguyên |
+| 8 | Bùi Mạnh Linh | Khi shipper giao tới nơi và yêu cầu thanh toán tiền mặt, tôi muốn mở nhanh app ngân hàng và quét mã QR chính xác số tiền lẻ mà không cần nhập tay hay tìm tiền mặt, để hoàn tất nhận hàng dưới 1 phút | Người mua hàng COD, Shipper |Lấy thông tin tài khoản và nhập tay số tiền lẻ, dễ nhập nhầm số hoặc chọn sai ngân hàng, mất khoảng 2 phút | Mã qr có giới hạn thời gian, tốn tài nguyên |
 | 9 | Bùi Mạnh Linh | Khi nhận được gói hàng COD lạ không rõ nguồn gốc, tôi muốn đối chiếu ngay thông tin sản phẩm và lịch sử đặt hàng trên các ứng dụng mua sắm, để biết chính xác đây là đơn mình mua thật hay là chiêu trò lừa đảo | Người mua lo ngại lừa đảo, Shipper | Tra cứu thủ công, lục lọi rải rác trên nhiều app khác nhau bằng trí nhớ mất rất nhiều thời gian | Đây là chủ đề liên quan đến lừa đảo |
 | 10 | *(Thành viên 4)* | *(Điền theo card)* | | | |
 | 11 | *(Thành viên 4)* | *(Điền theo card)* | | | |
@@ -195,15 +195,15 @@ Bắt đầu buổi học — đúng giờ, đủ nền tảng
 | Trường | Nội dung |
 |---|---|
 | **Actor** | Sinh viên non-tech đang học khoá AI Engineer (K5), chưa có nền tảng lập trình |
-| **Quy trình** | Chuẩn bị trước mỗi buổi học: đọc tài liệu → hiểu khái niệm nền → setup công cụ → sẵn sàng làm bài |
-| **Bottleneck** | Bước hiểu khái niệm + setup công cụ: không có nguồn giải thích đúng trình độ, phải tự Google hoặc nhờ bạn, mất 30–90 phút mỗi buổi |
-| **Impact** | Sinh viên bị tụt lại so với bạn có nền tảng; phụ thuộc vào việc bạn có rảnh không; dần mất động lực, học vẹt hoặc bỏ cuộc |
-| **Success Metric** | Baseline: 60–150 phút/buổi để sẵn sàng. Target: dưới 30 phút. Đo bằng: sinh viên tự báo cáo thời gian chuẩn bị sau 4 buổi dùng hệ thống |
-| **Boundary** | AI chỉ giải thích khái niệm và hướng dẫn setup dựa trên tài liệu có sẵn. AI **không** làm bài thay, không tự quyết lộ trình dài hạn không có chuyên gia duyệt. Sinh viên phải tự xác nhận hiểu trước khi vào bài (HITL). |
+| **Quy trình** | Nhận tài liệu trước buổi học → Đọc lướt → Cố gắng hiểu các khái niệm nền → Setup công cụ thực hành (Colab/VS Code) → Sẵn sàng làm bài |
+| **Bottleneck** | Nút thắt nằm ở bước hiểu khái niệm và setup công cụ: do không có nguồn tài liệu giải thích phù hợp với trình độ người mới, sinh viên phải tự tra cứu Google một cách phân mảnh hoặc chật vật nhờ vả bạn bè, ngốn mất 30–90 phút mỗi buổi chỉ để bắt đầu.|
+| **Impact** | Sinh viên mang tâm lý tự ti, cảm thấy bị tụt lại so với các bạn có nền tảng IT trong lớp; việc học bị thụ động do phụ thuộc vào thời gian rảnh của người khác. Lâu dần dẫn đến mất động lực, chuyển sang học vẹt chống đối hoặc bỏ cuộc giữa chừng. |
+| **Success Metric** | Baseline: 60–150 phút/buổi để hoàn tất khâu chuẩn bị.  Target: Giảm xuống dưới 30 phút/buổi. Cách đo: Sinh viên tự ghi nhận và báo cáo thời gian chuẩn bị sau 4 buổi học pilot có sử dụng hệ thống. |
+| **Boundary** | AI chỉ làm nhiệm vụ biên dịch khái niệm và tạo checklist setup dựa trên nội dung tài liệu gốc của giảng viên. AI tuyệt đối không giải bài tập thay sinh viên, không tự quyết định lộ trình dài hạn khi chưa có chuyên gia duyệt. Bắt buộc có Human-in-the-loop (HITL): Sinh viên phải đọc, đối chiếu và tự xác nhận đã hiểu trước khi vào bài.|
 
 Phản biện nhận được (từ AI đóng vai PM hoài nghi):
-- *"Nếu chỉ hiểu đủ để bắt đầu mà không hiểu sâu, sinh viên có thực sự học được gì không?"* → Nhóm đồng ý một phần — cần thêm tiêu chí đánh giá "hiểu" không chỉ là "có thể bắt đầu"
-- *"Giải pháp buddy system (nhờ bạn) đang hoạt động — tại sao cần build thêm?"* → Nhóm không đồng ý: buddy system phụ thuộc vào bạn có rảnh, không scale được
+- *"Nếu chỉ hiểu đủ để bắt đầu mà không hiểu sâu, sinh viên có thực sự học được gì không?"* → Đồng ý một phần. Việc rút ngắn thời gian chuẩn bị có rủi ro làm giảm độ sâu của kiến thức. Nhóm sẽ cập nhật ở v1: cần thêm tiêu chí đánh giá chất lượng lĩnh hội (ví dụ: làm đúng bài test khái niệm nhỏ đầu giờ) chứ không chỉ chăm chăm giảm metric thời gian.
+- *"Giải pháp buddy system (nhờ bạn) đang hoạt động — tại sao cần build thêm?"* → Không đồng ý. Giải pháp buddy system không có khả năng mở rộng (scale) và thiếu tính bền vững. Nó phụ thuộc hoàn toàn vào lòng nhiệt tình và thời gian rảnh của bạn cùng lớp. Người hỏi thường mang tâm lý ngại phiền hà, dẫn đến việc giấu dốt, trong khi người hướng dẫn cũng bị mất thời gian cá nhân. Công cụ AI giúp sinh viên lấy lại sự chủ động.
 
 ---
 
